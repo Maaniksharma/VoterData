@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@llamaindex/llama-cloud": "^2.4.1",
+    "dotenv": "^17.4.2",
+    "exceljs": "^4.4.0",
+    "llamaindex": "^0.12.1",
+    "mongoose": "^9.6.3",
+    "openai": "^6.39.1",
+    "pdf-lib": "^1.17.1",
+    "zod": "^4.4.3"
+  }
+}

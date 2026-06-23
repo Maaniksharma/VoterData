@@ -26,7 +26,7 @@ const gharuandaVillages = [
   "Badshahpur", "Gagsina", "Shahjahanpur", "Khorakhedi", "Begampur",
   "Shekhpura Khalsa", "Gudha", "Abadi Dera Phula Singh", "Kohand", "Kaimla",
   "Garhi Multan", "Alipur Khalsa", "Harisinghpura", "Pundri", "Faridpur",
-  "Balheda", "Garhi Bharal", "Abadi Devipur",
+  "Balheda", "Garhi Bharal", "Abadi Devipur","Kunda Kla"
 ];
 
 const EXTRACT_MODE = (process.env.EXTRACT_MODE || "gemini").toLowerCase();
@@ -48,8 +48,28 @@ if (EXTRACT_MODE === "gemini") {
 
 const PDF_PATH = process.argv[2];
 if (!PDF_PATH) {
-  console.error("Usage: node pdf-to-gemini.js <path-to-pdf>");
+  console.error("Usage: node pdf-to-gemini.js <path-to-pdf> [--pages 3,5,7-10]");
   process.exit(1);
+}
+
+function parsePages(spec) {
+  const out = new Set();
+  for (const part of spec.split(",").map((s) => s.trim()).filter(Boolean)) {
+    const m = part.match(/^(\d+)(?:-(\d+))?$/);
+    if (!m) { console.error(`Bad --pages token: "${part}"`); process.exit(1); }
+    const a = +m[1];
+    const b = m[2] ? +m[2] : a;
+    for (let n = Math.min(a, b); n <= Math.max(a, b); n++) out.add(n);
+  }
+  return [...out].sort((x, y) => x - y);
+}
+
+let pagesArg = null;
+const pagesFlagIdx = process.argv.indexOf("--pages");
+if (pagesFlagIdx !== -1) {
+  const spec = process.argv[pagesFlagIdx + 1];
+  if (!spec) { console.error("--pages requires a value, e.g. --pages 3,5,7-10"); process.exit(1); }
+  pagesArg = parsePages(spec);
 }
 const resolvedPath = path.resolve(PDF_PATH);
 if (!fs.existsSync(resolvedPath)) {
@@ -67,6 +87,20 @@ const CITIZENS_PATH = path.join(OUT_DIR, `citizens-${pdfId}.json`);
 
 const readJson = (p, dflt) => (fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, "utf8")) : dflt);
 const writeJson = (p, obj) => fs.writeFileSync(p, JSON.stringify(obj, null, 2));
+
+// Collapse all whitespace runs to a single space and trim. PDFs often have
+// inconsistent spacing in the same logical anubhag string across pages.
+const normalizeAnubhag = (s) => (s == null ? s : String(s).replace(/\s+/g, " ").trim());
+
+function resolveVillage(rawAnubhag, anubhagMap) {
+  if (!rawAnubhag) return null;
+  if (anubhagMap[rawAnubhag]) return anubhagMap[rawAnubhag];
+  const target = normalizeAnubhag(rawAnubhag);
+  for (const [k, v] of Object.entries(anubhagMap)) {
+    if (normalizeAnubhag(k) === target) return v;
+  }
+  return null;
+}
 
 const PAGE1_PROMPT = `
 You are reading the FIRST page of an Indian electoral roll PDF (Haryana, Karnal district, Vidhan Sabha 22-Gharaunda).
@@ -125,7 +159,7 @@ Field key legend (do NOT use long names):
 
 Rules:
 - Read page header "अनुभागों की संख्या व नाम <X>". <X> applies to every voter on the page.
-- If <X> not in map: return {"v":[],"pa":"<X>","um":"<X>"}. Do NOT guess.
+- If <X> not in map: return {"v":[],"pa":"<X>","um":"<X>"}.
 - If page has no voter cards (cover, naksha, summary): return {"v":[]}.
 - पिता→F, पति→H, माता→M. Transliterate Devanagari names to English.
 - Leave the user block which have a DELETED Stamp on it.
@@ -198,90 +232,123 @@ async function main() {
     callModel = (b64, prompt) => callOllama(b64, prompt);
   }
 
-  // ============ PHASE 1: page 1 → anubhag/village/booth ============
-  console.error(`=== Phase 1: extracting page 1 ===`);
-  const page1Base64 = await prepPage(0);
-  const meta = await callModel(page1Base64, PAGE1_PROMPT);
+  // ============ PHASE 1: page 1 → anubhag/village/booth (skip if cached) ============
+  const cached = readJson(CITIZENS_PATH, null);
+  const hasCachedMapping = cached?.anubhag_to_village && Object.keys(cached.anubhag_to_village).length > 0;
 
-  console.error(`\nDistrict     : ${meta.district}`);
-  console.error(`Constituency : ${meta.constituency}`);
-  console.error(`Bhag sankhya : ${meta.bhag_sankhya}`);
-  console.error(`Booth        : ${meta.booth.id} - ${meta.booth.name}`);
-  console.error(`Building     : ${meta.booth.building}`);
-  console.error(`Mukhya gaav  : ${meta.mukhya_gaav}`);
-  console.error(`\nAnubhag → village mapping:`);
-  for (const a of meta.anubhags) {
-    const tick = a.matched_village ? "✓" : "✗";
-    console.error(`  ${tick} "${a.raw}"  →  ${a.matched_village ?? "UNMATCHED"} [${a.confidence}]`);
-  }
+  let citizens;
+  let anubhagMap;
+  let boothLabel;
 
-  const unmatched = meta.anubhags.filter((a) => !a.matched_village);
-  if (unmatched.length > 0) {
-    console.error(`\n${unmatched.length} unmatched anubhag(s). Logged to ${REVIEW_PATH}`);
-    const review = readJson(REVIEW_PATH, {});
-    review[pdfId] = {
-      timestamp: new Date().toISOString(),
-      booth: meta.booth,
-      unmatched: unmatched.map((a) => a.raw),
-      all_anubhags: meta.anubhags,
-    };
-    writeJson(REVIEW_PATH, review);
-  }
+  if (hasCachedMapping) {
+    console.error(`=== Phase 1: SKIPPED (using cached mapping from ${CITIZENS_PATH}) ===`);
+    citizens = cached;
+    anubhagMap = cached.anubhag_to_village;
+    boothLabel = cached.booth;
+    console.error(`Booth        : ${boothLabel}`);
+    console.error(`Anubhags     : ${Object.keys(anubhagMap).length}`);
+  } else {
+    console.error(`=== Phase 1: extracting page 1 ===`);
+    const page1Base64 = await prepPage(0);
+    const meta = await callModel(page1Base64, PAGE1_PROMPT);
 
-  const ans = await ask(`\nProceed to phase 2 with this mapping? [y/N] `);
-  if (ans.toLowerCase() !== "y") {
-    console.error("Aborted before phase 2.");
-    return;
-  }
-
-  const boothLabel = `${meta.booth.id}-${meta.booth.name}`;
-  const anubhagMap = {};
-  for (const a of meta.anubhags) {
-    if (a.matched_village) anubhagMap[a.raw] = a.matched_village;
-  }
-
-  // merge into persistent village → booth map
-  const mapping = readJson(MAPPING_PATH, {});
-  for (const a of meta.anubhags) {
-    if (!a.matched_village) continue;
-    const v = a.matched_village;
-    if (!mapping[v]) mapping[v] = [];
-    let entry = mapping[v].find((e) => e.pdf === pdfId);
-    if (!entry) {
-      entry = { booth: boothLabel, pdf: pdfId, anubhags: [] };
-      mapping[v].push(entry);
+    console.error(`\nDistrict     : ${meta.district}`);
+    console.error(`Constituency : ${meta.constituency}`);
+    console.error(`Bhag sankhya : ${meta.bhag_sankhya}`);
+    console.error(`Booth        : ${meta.booth.id} - ${meta.booth.name}`);
+    console.error(`Building     : ${meta.booth.building}`);
+    console.error(`Mukhya gaav  : ${meta.mukhya_gaav}`);
+    console.error(`\nAnubhag → village mapping:`);
+    for (const a of meta.anubhags) {
+      const tick = a.matched_village ? "✓" : "✗";
+      console.error(`  ${tick} "${a.raw}"  →  ${a.matched_village ?? "UNMATCHED"} [${a.confidence}]`);
     }
-    if (!entry.anubhags.includes(a.raw)) entry.anubhags.push(a.raw);
-  }
-  writeJson(MAPPING_PATH, mapping);
-  console.error(`Updated ${MAPPING_PATH}`);
 
-  // ============ PHASE 2: voter pages (skip page 2 = naksha) ============
+    const unmatched = meta.anubhags.filter((a) => !a.matched_village);
+    if (unmatched.length > 0) {
+      console.error(`\n${unmatched.length} unmatched anubhag(s). Logged to ${REVIEW_PATH}`);
+      const review = readJson(REVIEW_PATH, {});
+      review[pdfId] = {
+        timestamp: new Date().toISOString(),
+        booth: meta.booth,
+        unmatched: unmatched.map((a) => a.raw),
+        all_anubhags: meta.anubhags,
+      };
+      writeJson(REVIEW_PATH, review);
+    }
+
+    const ans = await ask(`\nProceed to phase 2 with this mapping? [y/N] `);
+    if (ans.toLowerCase() !== "y") {
+      console.error("Aborted before phase 2.");
+      return;
+    }
+
+    boothLabel = `${meta.booth.id}-${meta.booth.name}`;
+    anubhagMap = {};
+    for (const a of meta.anubhags) {
+      if (a.matched_village) anubhagMap[a.raw] = a.matched_village;
+    }
+
+    // merge into persistent village → booth map
+    const mapping = readJson(MAPPING_PATH, {});
+    for (const a of meta.anubhags) {
+      if (!a.matched_village) continue;
+      const v = a.matched_village;
+      if (!mapping[v]) mapping[v] = [];
+      let entry = mapping[v].find((e) => e.pdf === pdfId);
+      if (!entry) {
+        entry = { booth: boothLabel, pdf: pdfId, anubhags: [] };
+        mapping[v].push(entry);
+      }
+      if (!entry.anubhags.includes(a.raw)) entry.anubhags.push(a.raw);
+    }
+    writeJson(MAPPING_PATH, mapping);
+    console.error(`Updated ${MAPPING_PATH}`);
+
+    citizens = {
+      pdf: pdfId,
+      district: meta.district,
+      constituency: meta.constituency,
+      booth: boothLabel,
+      booth_building: meta.booth.building,
+      mukhya_gaav: meta.mukhya_gaav,
+      anubhag_to_village: anubhagMap,
+      voters: [],
+      page_log: [],
+    };
+    writeJson(CITIZENS_PATH, citizens);
+  }
+
+  // ============ PHASE 2: voter pages ============
   console.error(`\n=== Phase 2: extracting voters page-by-page ===`);
-  const citizens = {
-    pdf: pdfId,
-    district: meta.district,
-    constituency: meta.constituency,
-    booth: boothLabel,
-    booth_building: meta.booth.building,
-    mukhya_gaav: meta.mukhya_gaav,
-    anubhag_to_village: anubhagMap,
-    voters: [],
-    page_log: [],
-  };
-  writeJson(CITIZENS_PATH, citizens);
 
   const REL_MAP = { F: "Father", H: "Husband", M: "Mother", O: "Other" };
   const GEN_MAP = { M: "male", F: "female" };
 
-  for (let i = 2; i < totalPages; i++) {
+  let pageIndices;
+  if (pagesArg) {
+    pageIndices = pagesArg
+      .map((p) => p - 1)
+      .filter((i) => i >= 0 && i < totalPages);
+    const skipped = pagesArg.filter((p) => p < 1 || p > totalPages);
+    if (skipped.length) console.error(`Out-of-range pages ignored: ${skipped.join(",")}`);
+    console.error(`Processing ${pageIndices.length} specified page(s): ${pageIndices.map((i) => i + 1).join(",")}`);
+    const targets = new Set(pageIndices.map((i) => i + 1));
+    citizens.voters = citizens.voters.filter((v) => !targets.has(v.pageNumber));
+    citizens.page_log = citizens.page_log.filter((p) => !targets.has(p.page));
+  } else {
+    pageIndices = [];
+    for (let i = 2; i < totalPages; i++) pageIndices.push(i);
+  }
+
+  for (const i of pageIndices) {
     const pageNumber = i + 1;
     try {
       const base64 = await prepPage(i);
       const res = await callModel(base64, PAGE_PROMPT(pageNumber, anubhagMap));
       const pageAnubhag = res.pa ?? null;
-      const unmatched = res.um ?? null;
-      const village = pageAnubhag ? anubhagMap[pageAnubhag] ?? null : null;
+      const village = resolveVillage(pageAnubhag, anubhagMap);
+      const unmatched = pageAnubhag && !village ? pageAnubhag : null;
       const shortVoters = res.v || [];
       const voters = shortVoters.map((x) => ({
         serial: x.s,

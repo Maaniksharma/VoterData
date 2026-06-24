@@ -103,7 +103,7 @@ function resolveVillage(rawAnubhag, anubhagMap) {
 }
 
 const PAGE1_PROMPT = `
-You are reading the FIRST page of an Indian electoral roll PDF (Haryana, Karnal district, Vidhan Sabha 22-Gharaunda).
+You are reading the FIRST page of an Indian electoral roll PDF (Haryana, Karnal district, Vidhan Sabha Gharaunda).
 
 Return ONLY this JSON, no markdown:
 
@@ -200,6 +200,26 @@ async function callOllama(base64Png, promptText) {
   return JSON.parse(data.response);
 }
 
+const MAX_RETRIES = 3;
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function callModelWithRetry(callModel, base64, prompt, label) {
+  let lastErr;
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      return await callModel(base64, prompt);
+    } catch (e) {
+      lastErr = e;
+      if (attempt < MAX_RETRIES) {
+        const backoff = 1000 * Math.pow(2, attempt - 1);
+        console.error(`  ${label} attempt ${attempt}/${MAX_RETRIES} failed: ${e.message}. Retrying in ${backoff}ms...`);
+        await sleep(backoff);
+      }
+    }
+  }
+  throw new Error(`All ${MAX_RETRIES} attempts failed. Last error: ${lastErr.message}`);
+}
+
 function ask(question) {
   const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
   return new Promise((res) => rl.question(question, (a) => { rl.close(); res(a.trim()); }));
@@ -250,7 +270,7 @@ async function main() {
   } else {
     console.error(`=== Phase 1: extracting page 1 ===`);
     const page1Base64 = await prepPage(0);
-    const meta = await callModel(page1Base64, PAGE1_PROMPT);
+    const meta = await callModelWithRetry(callModel, page1Base64, PAGE1_PROMPT, "page 1");
 
     console.error(`\nDistrict     : ${meta.district}`);
     console.error(`Constituency : ${meta.constituency}`);
@@ -308,7 +328,7 @@ async function main() {
     citizens = {
       pdf: pdfId,
       district: meta.district,
-      constituency: meta.constituency,
+      constituency: "Gharuanda",
       booth: boothLabel,
       booth_building: meta.booth.building,
       mukhya_gaav: meta.mukhya_gaav,
@@ -345,7 +365,7 @@ async function main() {
     const pageNumber = i + 1;
     try {
       const base64 = await prepPage(i);
-      const res = await callModel(base64, PAGE_PROMPT(pageNumber, anubhagMap));
+      const res = await callModelWithRetry(callModel, base64, PAGE_PROMPT(pageNumber, anubhagMap), `page ${pageNumber}`);
       const pageAnubhag = res.pa ?? null;
       const village = resolveVillage(pageAnubhag, anubhagMap);
       const unmatched = pageAnubhag && !village ? pageAnubhag : null;

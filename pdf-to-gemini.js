@@ -328,7 +328,7 @@ async function main() {
     citizens = {
       pdf: pdfId,
       district: meta.district,
-      constituency: "Gharuanda",
+      constituency: "Gharaunda",
       booth: boothLabel,
       booth_building: meta.booth.building,
       mukhya_gaav: meta.mukhya_gaav,

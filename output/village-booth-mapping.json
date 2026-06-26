@@ -1,0 +1,1245 @@
+{
+  "Mahmadpur": [
+    {
+      "booth": "1-Mohammadpur",
+      "pdf": "S08A22P1",
+      "anubhags": [
+        "1-मोहम्मदपुर ब्लाक न.1"
+      ]
+    },
+    {
+      "booth": "2-Mahmadpur",
+      "pdf": "S08A22P2",
+      "anubhags": [
+        "1-मोहम्मदपुर ब्लाक न.2",
+        "मोहम्मदपुर ब्लाक न.2"
+      ]
+    },
+    {
+      "booth": "3-Mahmadpur",
+      "pdf": "S08A22P3",
+      "anubhags": [
+        "1-मोहम्मदपुर ब्लाक न.1",
+        "2-मोहम्मदपुर ब्लाक न.2"
+      ]
+    }
+  ],
+  "Nabipur": [
+    {
+      "booth": "4-Nabipur",
+      "pdf": "S08A22P4",
+      "anubhags": [
+        "1-नबीपुर"
+      ]
+    },
+    {
+      "booth": "5-Nabipur",
+      "pdf": "S08A22P5",
+      "anubhags": [
+        "1-नबीपुर"
+      ]
+    }
+  ],
+  "Khirajpur": [
+    {
+      "booth": "6-Khirajpur",
+      "pdf": "S08A22P6",
+      "anubhags": [
+        "1-खिराजपुर"
+      ]
+    },
+    {
+      "booth": "7-Khirajpur",
+      "pdf": "S08A22P7",
+      "anubhags": [
+        "1-खिराजपुर"
+      ]
+    }
+  ],
+  "Kunda Kla": [
+    {
+      "booth": "7-Khirajpur",
+      "pdf": "S08A22P7",
+      "anubhags": [
+        "2-कुण्डा कला"
+      ]
+    }
+  ],
+  "Nali Khurd": [
+    {
+      "booth": "8-Nali Khurd",
+      "pdf": "S08A22P8",
+      "anubhags": [
+        "1-नलवी खुर्द"
+      ]
+    }
+  ],
+  "Nasirpur": [
+    {
+      "booth": "9-Nasirpur",
+      "pdf": "S08A22P9",
+      "anubhags": [
+        "1-नसीरपुर",
+        "2-नसीरपुर"
+      ]
+    }
+  ],
+  "Nali Kalan": [
+    {
+      "booth": "10-Nali Kalan",
+      "pdf": "S08A22P10",
+      "anubhags": [
+        "1-नलवी कलां"
+      ]
+    }
+  ],
+  "Nali Paar": [
+    {
+      "booth": "11-Nalvipar",
+      "pdf": "S08A22P11",
+      "anubhags": [
+        "1-नलवीपार ब्लाक न. 2"
+      ]
+    },
+    {
+      "booth": "12-Nali Paar",
+      "pdf": "S08A22P12",
+      "anubhags": [
+        "1-नलवीपार"
+      ]
+    },
+    {
+      "booth": "13-Nali Paar",
+      "pdf": "S08A22P13",
+      "anubhags": [
+        "1-नलवीपार ब्लाक न. 2",
+        "2-नलवीपार",
+        "5-चक नलवीपार"
+      ]
+    }
+  ],
+  "Dabarki Kalan": [
+    {
+      "booth": "14-Dabarki Kalan",
+      "pdf": "S08A22P14",
+      "anubhags": [
+        "1-डबरकी कलां ब्लाक न.1",
+        "2-डबरकी कलां ब्लाक न.2"
+      ]
+    },
+    {
+      "booth": "15-Dabarki Kalan",
+      "pdf": "S08A22P15",
+      "anubhags": [
+        "1-डबरकी कलां ब्लाक न.3"
+      ]
+    },
+    {
+      "booth": "16-Dabarki Kalan",
+      "pdf": "S08A22P16",
+      "anubhags": [
+        "1-डबरकी कलां ब्लाक न.1",
+        "2-डबरकी कलां ब्लाक न.3"
+      ]
+    }
+  ],
+  "Chundipur": [
+    {
+      "booth": "15-Dabarki Kalan",
+      "pdf": "S08A22P15",
+      "anubhags": [
+        "2-चुन्डीपुर पार डेरा हरिशंद अमर सिंह",
+        "3-चुन्डीपुर"
+      ]
+    },
+    {
+      "booth": "16-Dabarki Kalan",
+      "pdf": "S08A22P16",
+      "anubhags": [
+        "3-चुन्डीपुर"
+      ]
+    },
+    {
+      "booth": "23-Mohidinpur",
+      "pdf": "S08A22P23",
+      "anubhags": [
+        "2-चुंडीपुर"
+      ]
+    },
+    {
+      "booth": "24-Mohidinpur",
+      "pdf": "S08A22P24",
+      "anubhags": [
+        "3-चुन्डीपुर"
+      ]
+    }
+  ],
+  "Dabarki Paar": [
+    {
+      "booth": "17-Dabarki Paar",
+      "pdf": "S08A22P17",
+      "anubhags": [
+        "1-डबरकी पार (अंशतः) ब्लाक न. 3, चुण्डीपुरवार"
+      ]
+    }
+  ],
+  "Mustafabad": [
+    {
+      "booth": "18-Mustafabad",
+      "pdf": "S08A22P18",
+      "anubhags": [
+        "1-मुस्तफाबाद"
+      ]
+    }
+  ],
+  "Dhak Wala Rodan": [
+    {
+      "booth": "19-Dhak Wala Rodan",
+      "pdf": "S08A22P19",
+      "anubhags": [
+        "1-ढाकवाला रोडान ब्लाक न 1"
+      ]
+    }
+  ],
+  "Dhak Wala Gujran": [
+    {
+      "booth": "20-Dhakwala Gujran",
+      "pdf": "S08A22P20",
+      "anubhags": [
+        "1-ढाकवाला गुजरान ब्लाक न 2"
+      ]
+    },
+    {
+      "booth": "21-Dhakwala Gujran",
+      "pdf": "S08A22P21",
+      "anubhags": [
+        "1-ढाकवाला गुजरान ब्लाक न 2"
+      ]
+    }
+  ],
+  "Mohidinpur": [
+    {
+      "booth": "23-Mohidinpur",
+      "pdf": "S08A22P23",
+      "anubhags": [
+        "1-मोहिद्दीनपुर"
+      ]
+    },
+    {
+      "booth": "22-Mohidinpur",
+      "pdf": "S08A22P22",
+      "anubhags": [
+        "1-मोहियुद्दीनपुर"
+      ]
+    },
+    {
+      "booth": "24-Mohidinpur",
+      "pdf": "S08A22P24",
+      "anubhags": [
+        "1-मोहिद्दीनपुर",
+        "2-मोहिद्दीनपुर"
+      ]
+    }
+  ],
+  "Rasulpur Kalan": [
+    {
+      "booth": "26-Rasulpur Kalan",
+      "pdf": "S08A22P26",
+      "anubhags": [
+        "1-रसूलपुर कलां",
+        "2-रसूलपुर कलां ब्लाक न 2"
+      ]
+    },
+    {
+      "booth": "25-Rasulpur Kalan",
+      "pdf": "S08A22P25",
+      "anubhags": [
+        "1-रसूलपुर कलां"
+      ]
+    }
+  ],
+  "Sarafabad": [
+    {
+      "booth": "27-Sarafabad",
+      "pdf": "S08A22P27",
+      "anubhags": [
+        "1-शरफाबाद"
+      ]
+    }
+  ],
+  "Subhari": [
+    {
+      "booth": "28-Subhari",
+      "pdf": "S08A22P28",
+      "anubhags": [
+        "1-सुभरी"
+      ]
+    },
+    {
+      "booth": "29-Subhari",
+      "pdf": "S08A22P29",
+      "anubhags": [
+        "1-सुभरी"
+      ]
+    }
+  ],
+  "Kalvehdi": [
+    {
+      "booth": "30-Kalvehdi",
+      "pdf": "S08A22P30",
+      "anubhags": [
+        "1-कलवाहेड़ी"
+      ]
+    },
+    {
+      "booth": "31-Kalvehdi",
+      "pdf": "S08A22P31",
+      "anubhags": [
+        "1-कलवाहेड़ी"
+      ]
+    },
+    {
+      "booth": "32-Kalvehdi",
+      "pdf": "S08A22P32",
+      "anubhags": [
+        "1-कलवाहेड़ी",
+        "2-कलवाहेड़ी"
+      ]
+    }
+  ],
+  "Phushgarh": [
+    {
+      "booth": "34-Phushgarh",
+      "pdf": "S08A22P34",
+      "anubhags": [
+        "1-फुसगढ़ ब्लाक न. 1",
+        "2-फुसगढ़ ब्लाक न.2"
+      ]
+    },
+    {
+      "booth": "35-Phushgarh",
+      "pdf": "S08A22P35",
+      "anubhags": [
+        "1-फूसगढ़ ब्लाक न. 1",
+        "2-फूसगढ़ ब्लाक न. 2",
+        "3-फूसगढ़ ब्लाक न. 2"
+      ]
+    },
+    {
+      "booth": "33-Phushgarh",
+      "pdf": "S08A22P33",
+      "anubhags": [
+        "1-फूसगढ़ ब्लाक न. 1"
+      ]
+    },
+    {
+      "booth": "38-Phushgarh",
+      "pdf": "S08A22P38",
+      "anubhags": [
+        "1-फूसगढ़ आबादी राजीव पुरम कालोनी"
+      ]
+    },
+    {
+      "booth": "39-Phushgarh",
+      "pdf": "S08A22P39",
+      "anubhags": [
+        "1-आबादी राजीव पुरम कालोनी, फूसगढ़"
+      ]
+    },
+    {
+      "booth": "42-Phushgarh",
+      "pdf": "S08A22P42",
+      "anubhags": [
+        "1-ब्लाक-3 आबादी राजीव पुरम कालोनी, ग्राम-फूसगढ़"
+      ]
+    }
+  ],
+  "Rajivpuram": [
+    {
+      "booth": "36-Phushgarh",
+      "pdf": "S08A22P36",
+      "anubhags": [
+        "1-ब्लाक-3 आबादी राजीव पुरम कालोनी, ग्राम-फूसगढ़"
+      ]
+    },
+    {
+      "booth": "37-Phushgarh",
+      "pdf": "S08A22P37",
+      "anubhags": [
+        "1-ब्लाक-3 आबादी राजीव पुरम कालोनी, ग्राम-फूसगढ़",
+        "2-फूसगढ़ आबादी राजीव पुरम कालोनी"
+      ]
+    },
+    {
+      "booth": "40-Phushgarh",
+      "pdf": "S08A22P40",
+      "anubhags": [
+        "1-ब्लाक-3 आबादी राजीव पुरम कालोनी, ग्राम-फूसगढ़"
+      ]
+    },
+    {
+      "booth": "43-Phushgarh",
+      "pdf": "S08A22P43",
+      "anubhags": [
+        "1-ब्लाक-3 आबादी राजीव पुरम कालोनी, ग्राम-फूसगढ़",
+        "2-फूसगढ़ आबादी राजीव पुरम कालोनी",
+        "3-आबादी राजीव पुरम कालोनी, फूसगढ़",
+        "4-ब्लाक-3 आबादी राजीव पुरम कालोनी, ग्राम-फूसगढ़"
+      ]
+    }
+  ],
+  "Uttam Nagar": [
+    {
+      "booth": "36-Phushgarh",
+      "pdf": "S08A22P36",
+      "anubhags": [
+        "2-उत्तम नगर"
+      ]
+    },
+    {
+      "booth": "40-Phushgarh",
+      "pdf": "S08A22P40",
+      "anubhags": [
+        "4-उत्तम नगर"
+      ]
+    },
+    {
+      "booth": "45-Phushgarh",
+      "pdf": "S08A22P45",
+      "anubhags": [
+        "6-उत्तम नगर"
+      ]
+    }
+  ],
+  "Durga Colony": [
+    {
+      "booth": "38-Phushgarh",
+      "pdf": "S08A22P38",
+      "anubhags": [
+        "2-दुर्गा कालोनी"
+      ]
+    },
+    {
+      "booth": "41-Phushgarh",
+      "pdf": "S08A22P41",
+      "anubhags": [
+        "1-दुर्गा कॉलोनी"
+      ]
+    },
+    {
+      "booth": "44-Phushgarh",
+      "pdf": "S08A22P44",
+      "anubhags": [
+        "2-दुर्गा कालोनी, ग्राम-फूसगढ़"
+      ]
+    },
+    {
+      "booth": "45-Phushgarh",
+      "pdf": "S08A22P45",
+      "anubhags": [
+        "3-दुर्गा कालोनी",
+        "5-दुर्गा कालोनी"
+      ]
+    }
+  ],
+  "New DC Colony": [
+    {
+      "booth": "40-Phushgarh",
+      "pdf": "S08A22P40",
+      "anubhags": [
+        "2-न्यू डी.सी कालोनी"
+      ]
+    },
+    {
+      "booth": "45-Phushgarh",
+      "pdf": "S08A22P45",
+      "anubhags": [
+        "2-न्यू डी.सी. कॉलोनी"
+      ]
+    }
+  ],
+  "Vikas Nagar": [
+    {
+      "booth": "41-Phushgarh",
+      "pdf": "S08A22P41",
+      "anubhags": [
+        "2-विकास नगर"
+      ]
+    },
+    {
+      "booth": "44-Phushgarh",
+      "pdf": "S08A22P44",
+      "anubhags": [
+        "1-विकास नगर, ग्राम-फूसगढ़"
+      ]
+    },
+    {
+      "booth": "45-Phushgarh",
+      "pdf": "S08A22P45",
+      "anubhags": [
+        "1-विकास नगर",
+        "4-विकास नगर"
+      ]
+    }
+  ],
+  "Chhapra Kheda": [
+    {
+      "booth": "46-Chhapra Kheda",
+      "pdf": "S08A22P46",
+      "anubhags": [
+        "1-छपरा खेड़ा"
+      ]
+    },
+    {
+      "booth": "47-Chhapra Kheda",
+      "pdf": "S08A22P47",
+      "anubhags": [
+        "1-छपरा खेड़ा"
+      ]
+    }
+  ],
+  "Chhapra Jagir": [
+    {
+      "booth": "48-Chhapra Jagir",
+      "pdf": "S08A22P48",
+      "anubhags": [
+        "1-छपरा जागीर"
+      ]
+    }
+  ],
+  "Rasulpur Khurd": [
+    {
+      "booth": "49-Rasulpur Khurd",
+      "pdf": "S08A22P49",
+      "anubhags": [
+        "1-रसुलपुर खुर्द"
+      ]
+    }
+  ],
+  "Suhana": [
+    {
+      "booth": "50-Suhana",
+      "pdf": "S08A22P50",
+      "anubhags": [
+        "1-सुहाना"
+      ]
+    }
+  ],
+  "Shekhpura": [
+    {
+      "booth": "51-Shekhpura",
+      "pdf": "S08A22P51",
+      "anubhags": [
+        "1-शेखपुरा ब्लाक न.1"
+      ]
+    },
+    {
+      "booth": "52-Shekhpura",
+      "pdf": "S08A22P52",
+      "anubhags": [
+        "1-शेखपुरा ब्लाक न.1",
+        "2-शेखपुरा ब्लाक न.2"
+      ]
+    },
+    {
+      "booth": "53-Shekhpura",
+      "pdf": "S08A22P53",
+      "anubhags": [
+        "1-शेखपुरा ब्लाक न.1",
+        "2-शेखपुरा ब्लाक न.2"
+      ]
+    },
+    {
+      "booth": "54-Shekhpura",
+      "pdf": "S08A22P54",
+      "anubhags": [
+        "1-शेखपुरा ब्लाक न. 3"
+      ]
+    }
+  ],
+  "Margen": [
+    {
+      "booth": "55-Margen",
+      "pdf": "S08A22P55",
+      "anubhags": [
+        "1-मरगौन"
+      ]
+    }
+  ],
+  "Nagla Megha": [
+    {
+      "booth": "56-Nagla Megha",
+      "pdf": "S08A22P56",
+      "anubhags": [
+        "1-नगला मेघा ब्लाक न.1"
+      ]
+    },
+    {
+      "booth": "57-Nagla Megha",
+      "pdf": "S08A22P57",
+      "anubhags": [
+        "1-नगला मेधा ब्लाक न.1 व 2"
+      ]
+    },
+    {
+      "booth": "58-Nagla Megha",
+      "pdf": "S08A22P58",
+      "anubhags": [
+        "1-नगला मेधा ब्लाक न.1",
+        "2-नगला मेधा ब्लाक न.1 व 2"
+      ]
+    }
+  ],
+  "Amritpur Khurd": [
+    {
+      "booth": "59-Nagla Megha",
+      "pdf": "S08A22P59",
+      "anubhags": [
+        "1-अमृतपुर खुर्द"
+      ]
+    }
+  ],
+  "Manglaura": [
+    {
+      "booth": "60-Manglaura Kadim",
+      "pdf": "S08A22P60",
+      "anubhags": [
+        "1-मंगलोरा कदीम"
+      ]
+    },
+    {
+      "booth": "61-Manglaura Qadeem",
+      "pdf": "S08A22P61",
+      "anubhags": [
+        "1-मंगलोरा कदीम",
+        "2-मंगलोरा जदीद"
+      ]
+    }
+  ],
+  "Andhera": [
+    {
+      "booth": "62-Andhera",
+      "pdf": "S08A22P62",
+      "anubhags": [
+        "1-अन्धेड़ा"
+      ]
+    }
+  ],
+  "Dilwara": [
+    {
+      "booth": "62-Andhera",
+      "pdf": "S08A22P62",
+      "anubhags": [
+        "2-दिलावरा"
+      ]
+    }
+  ],
+  "Amritpur Kalan": [
+    {
+      "booth": "63-Amritpur Kalan",
+      "pdf": "S08A22P63",
+      "anubhags": [
+        "1-अमृतपुर कलां"
+      ]
+    },
+    {
+      "booth": "64-Amritpur Kalan",
+      "pdf": "S08A22P64",
+      "anubhags": [
+        "1-अमृतपुर कलां"
+      ]
+    },
+    {
+      "booth": "65-Amritpur Kalan",
+      "pdf": "S08A22P65",
+      "anubhags": [
+        "1-अमृतपुर कलां",
+        "2-अमृतपुर कलां"
+      ]
+    }
+  ],
+  "Karwali": [
+    {
+      "booth": "66-Karwali",
+      "pdf": "S08A22P66",
+      "anubhags": [
+        "1-कैरवाली"
+      ]
+    },
+    {
+      "booth": "67-Karwali",
+      "pdf": "S08A22P67",
+      "anubhags": [
+        "1-कैरवाली",
+        "2-कैरवाली"
+      ]
+    }
+  ],
+  "Ganjogarhi": [
+    {
+      "booth": "68-Ganjogarhi",
+      "pdf": "S08A22P68",
+      "anubhags": [
+        "1-गंजोगढ़ी"
+      ]
+    },
+    {
+      "booth": "69-Ganjogarhi",
+      "pdf": "S08A22P69",
+      "anubhags": [
+        "1-गंजोगढ़ी"
+      ]
+    }
+  ],
+  "Rawar": [
+    {
+      "booth": "70-Rawar",
+      "pdf": "S08A22P70",
+      "anubhags": [
+        "1-रांवर ब्लाक न.1"
+      ]
+    },
+    {
+      "booth": "71-Rawar",
+      "pdf": "S08A22P71",
+      "anubhags": [
+        "1-रांवर ब्लाक न. 2"
+      ]
+    },
+    {
+      "booth": "72-Rawar",
+      "pdf": "S08A22P72",
+      "anubhags": [
+        "1-रांवर"
+      ]
+    },
+    {
+      "booth": "73-Rawar",
+      "pdf": "S08A22P73",
+      "anubhags": [
+        "1-रांवर ब्लाक न.1",
+        "2-रांवर ब्लाक न. 2",
+        "3-रांवर"
+      ]
+    }
+  ],
+  "Madhuban / Ashok Vihar Colony": [
+    {
+      "booth": "74-Madhuban",
+      "pdf": "S08A22P74",
+      "anubhags": [
+        "1-ए.डी, पुलिस कम्पलैक्स मधुवन, करनाल",
+        "2-एस.सी.आर.बी, पुलिस कम्पलैक्स मधुवन, करनाल",
+        "3-पुराना एल.आई.जी, एच.पी.ए. पुलिस कम्पलैक्स मधुवन, करनाल",
+        "4-नया, एम.आई.जी, पुलिस कम्पलैक्स मधुवन, करनाल",
+        "5-पुराना एल.आई.जी, एच.पी.ए, पुलिस कम्पलैक्स मधुवन, करनाल",
+        "6-नया एल.आई.जी, एच.पी.ए, पुलिस कम्पलैक्स मधुवन, करनाल",
+        "7-नया एल.आई.जी, डी.टी.सी, पुलिस कम्पलैक्स मधुवन, करनाल",
+        "8-ई.डब्लयू.एस, एच.पी.ए. पुलिस कम्पलैक्स मधुवन, करनाल",
+        "9- ए. एच.पी.ए, पुलिस कम्पलैक्स मधुवन, करनाल",
+        "10-बी, एच.पी.ए, पुलिस कम्पलैक्स मधुवन, करनाल",
+        "11-सी, एच.पी.ए, पुलिस कम्पलैक्स मधुवन, करनाल",
+        "12-डी, एच.पी.ए, पुलिस कम्पलैक्स मधुवन, करनाल",
+        "13-पी.एच, एच.पी.ए,पुलिस कम्पलैक्स मधुवन, करनाल"
+      ]
+    },
+    {
+      "booth": "75-Madhuban",
+      "pdf": "S08A22P75",
+      "anubhags": [
+        "1-ए.डी. पुलिस कम्पलैक्स मधुबन, करनाल",
+        "2-एस.सी.आर.बी. पुलिस कम्पलैक्स मधुबन, करनाल",
+        "3-पुराना एल.आई.जी. एच.पी.ए. पुलिस कम्पलैक्स मधुबन, करनाल",
+        "4-नया एल.आई.जी. एच.पी.ए. पुलिस कम्पलैक्स मधुबन, करनाल",
+        "5-ई.डब्ल्यू.एस. एच.पी.ए. पुलिस कम्पलैक्स मधुबन, करनाल",
+        "6-ए.एच.पी. पुलिस कम्पलैक्स मधुबन, करनाल"
+      ]
+    },
+    {
+      "booth": "82-Kambopura",
+      "pdf": "S08A22P82",
+      "anubhags": [
+        "3-अशोक विहार कालोनी"
+      ]
+    }
+  ],
+  "Uncha Samana": [
+    {
+      "booth": "76-Uncha Siwana",
+      "pdf": "S08A22P76",
+      "anubhags": [
+        "1-उंचा सिवाना ब्लाक न.1"
+      ]
+    },
+    {
+      "booth": "77-Uncha Siwana",
+      "pdf": "S08A22P77",
+      "anubhags": [
+        "1-ऊंचा सिवाना ब्लाक न. 2",
+        "2-ऊंचा सिवाना ब्लाक न. 3"
+      ]
+    },
+    {
+      "booth": "78-Uncha Sivana",
+      "pdf": "S08A22P78",
+      "anubhags": [
+        "1-उंचा सिवाना ब्लाक न. 4"
+      ]
+    },
+    {
+      "booth": "79-Uncha Siwana",
+      "pdf": "S08A22P79",
+      "anubhags": [
+        "1-उंचा सिवाना ब्लाक न.1",
+        "2-उंचा सिवाना ब्लाक न. 3",
+        "3-उंचा सिवाना ब्लाक न. 4"
+      ]
+    }
+  ],
+  "Kambopura": [
+    {
+      "booth": "80-Kambopura",
+      "pdf": "S08A22P80",
+      "anubhags": [
+        "1-कम्बोहपुरा ब्लाक न.1"
+      ]
+    },
+    {
+      "booth": "81-Kambopura",
+      "pdf": "S08A22P81",
+      "anubhags": [
+        "1-कम्बोपुरा ब्लाक न. 2"
+      ]
+    },
+    {
+      "booth": "82-Kambopura",
+      "pdf": "S08A22P82",
+      "anubhags": [
+        "1-कम्बोहपुरा ब्लाक न. 1",
+        "2-कम्बोहपुरा ब्लाक न. 2"
+      ]
+    }
+  ],
+  "Daha": [
+    {
+      "booth": "83-Daha",
+      "pdf": "S08A22P83",
+      "anubhags": [
+        "1-दहा ब्लाक न. 1 व 2"
+      ]
+    },
+    {
+      "booth": "84-Daha",
+      "pdf": "S08A22P84",
+      "anubhags": [
+        "1-दहा ब्लाक न. 2 व ब्लाक न. 3"
+      ]
+    }
+  ],
+  "Madanpur": [
+    {
+      "booth": "85-Madanpur",
+      "pdf": "S08A22P85",
+      "anubhags": [
+        "1-दहा आबादी मदन पुर"
+      ]
+    }
+  ],
+  "Sirsi": [
+    {
+      "booth": "86-Sirsi",
+      "pdf": "S08A22P86",
+      "anubhags": [
+        "1-दहा आबादी सिरसी"
+      ]
+    }
+  ],
+  "Bajida Jattan": [
+    {
+      "booth": "87-Bajida Jattan",
+      "pdf": "S08A22P87",
+      "anubhags": [
+        "1-बाजीदा जाटान ब्लाक नं. 1"
+      ]
+    },
+    {
+      "booth": "88-Bajida Jattan",
+      "pdf": "S08A22P88",
+      "anubhags": [
+        "1-बाजीदा जाटान ब्लाक नं.1"
+      ]
+    }
+  ],
+  "Ghoghdipur": [
+    {
+      "booth": "89-Ghoghdipur",
+      "pdf": "S08A22P89",
+      "anubhags": [
+        "1-घोघड़ीपुर ब्लाक न.1 व 2"
+      ]
+    },
+    {
+      "booth": "90-Ghoghdipur",
+      "pdf": "S08A22P90",
+      "anubhags": [
+        "1-घोघड़ीपुर ब्लाक न.2, 3 व 4"
+      ]
+    },
+    {
+      "booth": "91-Ghoghdipur",
+      "pdf": "S08A22P91",
+      "anubhags": [
+        "1-घोघड़ीपुर ब्लाक न.1 व 2",
+        "2-घोघड़ीपुर ब्लाक न.2, 3 व 4"
+      ]
+    },
+    {
+      "booth": "92-Ghoghdipur",
+      "pdf": "S08A22P92",
+      "anubhags": [
+        "1-घोघड़ीपुर ब्लाक न.4"
+      ]
+    }
+  ],
+  "Pingli": [
+    {
+      "booth": "93-Pingli",
+      "pdf": "S08A22P93",
+      "anubhags": [
+        "1-पिंगली"
+      ]
+    },
+    {
+      "booth": "94-Pingli",
+      "pdf": "S08A22P94",
+      "anubhags": [
+        "1-पिंगली"
+      ]
+    }
+  ],
+  "Taharpur": [
+    {
+      "booth": "94-Pingli",
+      "pdf": "S08A22P94",
+      "anubhags": [
+        "2-ताहरपुर ( बेचिराग)"
+      ]
+    }
+  ],
+  "Bhusli": [
+    {
+      "booth": "95-Bhusli",
+      "pdf": "S08A22P95",
+      "anubhags": [
+        "1-भूसली"
+      ]
+    },
+    {
+      "booth": "96-Bhusli",
+      "pdf": "S08A22P96",
+      "anubhags": [
+        "1-भूसली"
+      ]
+    }
+  ],
+  "Samalkha": [
+    {
+      "booth": "97-Samalkha",
+      "pdf": "S08A22P97",
+      "anubhags": [
+        "1-समाल्खा"
+      ]
+    }
+  ],
+  "Jhivarhedi": [
+    {
+      "booth": "98-Jhivarhedi",
+      "pdf": "S08A22P98",
+      "anubhags": [
+        "1-झिवरहेड़ी"
+      ]
+    }
+  ],
+  "Kharkali": [
+    {
+      "booth": "99-Kharkali",
+      "pdf": "S08A22P99",
+      "anubhags": [
+        "1-खरकाली"
+      ]
+    }
+  ],
+  "Kutel": [
+    {
+      "booth": "100-Kutel",
+      "pdf": "S08A22P100",
+      "anubhags": [
+        "1-कुटेल ब्लाक न.1"
+      ]
+    },
+    {
+      "booth": "101-Kutel",
+      "pdf": "S08A22P101",
+      "anubhags": [
+        "1-कुटेल ब्लाक न.2",
+        "2-कुटेल ब्लाक न.8"
+      ]
+    },
+    {
+      "booth": "102-Kutel",
+      "pdf": "S08A22P102",
+      "anubhags": [
+        "1-कुटेल ब्लाक न.3"
+      ]
+    },
+    {
+      "booth": "103-Kutel",
+      "pdf": "S08A22P103",
+      "anubhags": [
+        "1-कुटेल ब्लाक न.4"
+      ]
+    },
+    {
+      "booth": "104-Kutel",
+      "pdf": "S08A22P104",
+      "anubhags": [
+        "1-कुटेल ब्लाक न.6"
+      ]
+    },
+    {
+      "booth": "105-Kutel",
+      "pdf": "S08A22P105",
+      "anubhags": [
+        "1-कुटेल ब्लाक न.3",
+        "2-कुटेल ब्लाक न.4",
+        "3-कुटेल ब्लाक न.4",
+        "4-कुटेल ब्लाक न.5",
+        "5-कुटेल ब्लाक न.6",
+        "6-कुटेल ब्लाक न.7",
+        "7-कुटेल ब्लाक न.8"
+      ]
+    }
+  ],
+  "Mubarakabad": [
+    {
+      "booth": "106-Mubarakabad",
+      "pdf": "S08A22P106",
+      "anubhags": [
+        "1-मुबारकबाद"
+      ]
+    },
+    {
+      "booth": "107-Mubarakabad",
+      "pdf": "S08A22P107",
+      "anubhags": [
+        "1-मुबारकबाद"
+      ]
+    }
+  ],
+  "Kalro": [
+    {
+      "booth": "108-Kalro",
+      "pdf": "S08A22P108",
+      "anubhags": [
+        "1-कालरो ब्लाक न.1"
+      ]
+    },
+    {
+      "booth": "109-Kalro",
+      "pdf": "S08A22P109",
+      "anubhags": [
+        "1-कालरो ब्लाक न.1"
+      ]
+    },
+    {
+      "booth": "110-Kalro",
+      "pdf": "S08A22P110",
+      "anubhags": [
+        "1-कालरो ब्लाक न.3 व 4"
+      ]
+    },
+    {
+      "booth": "111-Kalro",
+      "pdf": "S08A22P111",
+      "anubhags": [
+        "1-कालरो ब्लाक न. 1",
+        "2-कालरो ब्लाक न. 2",
+        "3-कालरो ब्लाक न. 1",
+        "4-कालरो ब्लाक न. 3",
+        "5-कालरो ब्लाक न. 4"
+      ]
+    }
+  ],
+  "Faizlipur Majra": [
+    {
+      "booth": "112-Faiz Alipur Majra",
+      "pdf": "S08A22P112",
+      "anubhags": [
+        "1-फौज अलीपुर माजरा"
+      ]
+    }
+  ],
+  "Lalupura": [
+    {
+      "booth": "113-Lalupura",
+      "pdf": "S08A22P113",
+      "anubhags": [
+        "1-लालुपुरा ब्लाक न. 1 व 2"
+      ]
+    },
+    {
+      "booth": "114-Lalupura",
+      "pdf": "S08A22P114",
+      "anubhags": [
+        "1-लालुपुरा"
+      ]
+    }
+  ],
+  "Pir Badoli": [
+    {
+      "booth": "115-Pir Badoli",
+      "pdf": "S08A22P115",
+      "anubhags": [
+        "1-पीर बड़ोली"
+      ]
+    }
+  ],
+  "Sadarpur": [
+    {
+      "booth": "116-Sadarpur",
+      "pdf": "S08A22P116",
+      "anubhags": [
+        "1-सदरपुर ब्लाक न. 1"
+      ]
+    },
+    {
+      "booth": "117-Sadarpur",
+      "pdf": "S08A22P117",
+      "anubhags": [
+        "1-सदरपुर ब्लाक न. 1"
+      ]
+    },
+    {
+      "booth": "118-Darul Uma Tatarpur",
+      "pdf": "S08A22P118",
+      "anubhags": [
+        "1-सदरपुर ब्लाक 2 व दारुल उमा ततारपुर"
+      ]
+    }
+  ],
+  "Bharatpur": [
+    {
+      "booth": "119-Bharatpur",
+      "pdf": "S08A22P119",
+      "anubhags": [
+        "1-सदरपुर आबादी भरतपुर"
+      ]
+    }
+  ],
+  "Bassi Akbarpur": [
+    {
+      "booth": "120-Bassi Akbarpur",
+      "pdf": "S08A22P120",
+      "anubhags": [
+        "1-बस्ती अकबरपुर"
+      ]
+    },
+    {
+      "booth": "121-Bassi Akbarpur",
+      "pdf": "S08A22P121",
+      "anubhags": [
+        "1-बसी अकबरपुर"
+      ]
+    }
+  ],
+  "Malikpur Gadyan": [
+    {
+      "booth": "121-Bassi Akbarpur",
+      "pdf": "S08A22P121",
+      "anubhags": [
+        "2-मलिकपुर गादियान"
+      ]
+    }
+  ],
+  "Chaura": [
+    {
+      "booth": "122-Chaura",
+      "pdf": "S08A22P122",
+      "anubhags": [
+        "1-चौरा ब्लाक नं.1"
+      ]
+    },
+    {
+      "booth": "123-Chaura",
+      "pdf": "S08A22P123",
+      "anubhags": [
+        "1-चौरा"
+      ]
+    },
+    {
+      "booth": "124-Chaura",
+      "pdf": "S08A22P124",
+      "anubhags": [
+        "1-चौरा ब्लाक न.1",
+        "2-चौरा"
+      ]
+    }
+  ],
+  "Araipura": [
+    {
+      "booth": "125-Araipura",
+      "pdf": "S08A22P125",
+      "anubhags": [
+        "1-अराईपुरा"
+      ]
+    },
+    {
+      "booth": "126-Araipura",
+      "pdf": "S08A22P126",
+      "anubhags": [
+        "1-अराईपुरा ब्लाक न.2 व 3"
+      ]
+    },
+    {
+      "booth": "127-Araipura",
+      "pdf": "S08A22P127",
+      "anubhags": [
+        "1-अराईपुरा ब्लाक न. 1 व 2"
+      ]
+    },
+    {
+      "booth": "128-Araipura",
+      "pdf": "S08A22P128",
+      "anubhags": [
+        "1-अरईपुरा ब्लाक न.3 व 4"
+      ]
+    },
+    {
+      "booth": "129-Araipura",
+      "pdf": "S08A22P129",
+      "anubhags": [
+        "1-अराईपुरा",
+        "3-अराईपुरा ब्लाक न.2 व 3",
+        "4-अराईपुरा ब्लाक न.3 व 4"
+      ]
+    }
+  ],
+  "Gyanpura": [
+    {
+      "booth": "129-Araipura",
+      "pdf": "S08A22P129",
+      "anubhags": [
+        "2-ज्ञानपुरा"
+      ]
+    }
+  ],
+  "Bastada": [
+    {
+      "booth": "130-Bastada",
+      "pdf": "S08A22P130",
+      "anubhags": [
+        "1-बसताडा ब्लाक न.1, 2"
+      ]
+    }
+  ]
+}

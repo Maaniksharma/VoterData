@@ -1,0 +1,86 @@
+{
+  "S08A22P73": {
+    "timestamp": "2026-06-25T05:48:09.824Z",
+    "booth": {
+      "id": "73",
+      "name": "Rawar",
+      "building": "Government Primary School"
+    },
+    "unmatched": [
+      "4-अप्रवासी भारतीय"
+    ],
+    "all_anubhags": [
+      {
+        "raw": "1-रांवर ब्लाक न.1",
+        "matched_village": "Rawar",
+        "confidence": "high"
+      },
+      {
+        "raw": "2-रांवर ब्लाक न. 2",
+        "matched_village": "Rawar",
+        "confidence": "high"
+      },
+      {
+        "raw": "3-रांवर",
+        "matched_village": "Rawar",
+        "confidence": "high"
+      },
+      {
+        "raw": "4-अप्रवासी भारतीय",
+        "matched_village": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "S08A22P114": {
+    "timestamp": "2026-06-25T10:05:48.067Z",
+    "booth": {
+      "id": "114",
+      "name": "Lalupura",
+      "building": "Rajkiya High School, Lalupura"
+    },
+    "unmatched": [
+      "2- खवाजपुर (बेचिराग)"
+    ],
+    "all_anubhags": [
+      {
+        "raw": "1-लालुपुरा",
+        "matched_village": "Lalupura",
+        "confidence": "high"
+      },
+      {
+        "raw": "2- खवाजपुर (बेचिराग)",
+        "matched_village": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "S08A22P124": {
+    "timestamp": "2026-06-25T11:09:44.686Z",
+    "booth": {
+      "id": "124",
+      "name": "Chaura",
+      "building": "Government Senior Secondary School, Chaura"
+    },
+    "unmatched": [
+      "3-बुडनपुर ( बेचिराग )"
+    ],
+    "all_anubhags": [
+      {
+        "raw": "1-चौरा ब्लाक न.1",
+        "matched_village": "Chaura",
+        "confidence": "high"
+      },
+      {
+        "raw": "2-चौरा",
+        "matched_village": "Chaura",
+        "confidence": "high"
+      },
+      {
+        "raw": "3-बुडनपुर ( बेचिराग )",
+        "matched_village": null,
+        "confidence": "low"
+      }
+    ]
+  }
+}

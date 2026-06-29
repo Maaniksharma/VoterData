@@ -1,0 +1,98 @@
+{
+  "Garhi Bharal": [
+    {
+      "booth": "250-Garhi Bharal",
+      "pdf": "S08A22P250",
+      "anubhags": [
+        "1-गढ़ी भल्लम आबादी देवीपुर"
+      ]
+    },
+    {
+      "booth": "249-Garhi Bhallal",
+      "pdf": "S08A22P249",
+      "anubhags": [
+        "1-गढ़ी भल्लल आबादी देवीपुर"
+      ]
+    },
+    {
+      "booth": "248-Garhi Bhallam",
+      "pdf": "S08A22P248",
+      "anubhags": [
+        "1-गढ़ी भल्लम"
+      ]
+    },
+    {
+      "booth": "247-Garhi Bhallal",
+      "pdf": "S08A22P247",
+      "anubhags": [
+        "1-गढ़ी भल्लल"
+      ]
+    }
+  ],
+  "Balheda": [
+    {
+      "booth": "246-Balheda",
+      "pdf": "S08A22P246",
+      "anubhags": [
+        "1-बलहेड़ा"
+      ]
+    },
+    {
+      "booth": "245-Balheda",
+      "pdf": "S08A22P245",
+      "anubhags": [
+        "1-बलहेड़ा"
+      ]
+    }
+  ],
+  "Karwali": [
+    {
+      "booth": "246-Balheda",
+      "pdf": "S08A22P246",
+      "anubhags": [
+        "2-कलरी ( बेचिराग )"
+      ]
+    }
+  ],
+  "Faridpur": [
+    {
+      "booth": "244-Faridpur",
+      "pdf": "S08A22P244",
+      "anubhags": [
+        "1-फरीदपुर ब्लाक न.4 , 6"
+      ]
+    },
+    {
+      "booth": "243-Faridpur",
+      "pdf": "S08A22P243",
+      "anubhags": [
+        "1-फरीदपुर ब्लाक न.5",
+        "2-फरीदपुर ब्लॉक नं 3"
+      ]
+    },
+    {
+      "booth": "241-Faridpur",
+      "pdf": "S08A22P241",
+      "anubhags": [
+        "1-फरीदपुर ब्लाक न. 1 व 2"
+      ]
+    },
+    {
+      "booth": "242-Faridpur",
+      "pdf": "S08A22P242",
+      "anubhags": [
+        "1-फरीदपुर ब्लाक न.1 व 2"
+      ]
+    }
+  ],
+  "Pundri": [
+    {
+      "booth": "240-Pundri",
+      "pdf": "S08A22P240",
+      "anubhags": [
+        "1-पुण्डरी ब्लाक न. 1 , 3",
+        "2-पुण्डरी ब्लाक न. 2 व 3"
+      ]
+    }
+  ]
+}

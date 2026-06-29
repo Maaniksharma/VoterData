@@ -1,0 +1,122 @@
+{
+  "S08A22P192": {
+    "timestamp": "2026-06-25T11:19:44.840Z",
+    "booth": {
+      "id": "192",
+      "name": "Barsat",
+      "building": "Government Senior Secondary School, Barsat"
+    },
+    "unmatched": [
+      "3-बहलोलपुर (बेचिराग)"
+    ],
+    "all_anubhags": [
+      {
+        "raw": "1-बरसत ब्लाक न.1",
+        "matched_village": "Barsat",
+        "confidence": "high"
+      },
+      {
+        "raw": "2-बरसत",
+        "matched_village": "Barsat",
+        "confidence": "high"
+      },
+      {
+        "raw": "3-बहलोलपुर (बेचिराग)",
+        "matched_village": null,
+        "confidence": "low"
+      },
+      {
+        "raw": "4-बरसत ब्लाक न.5",
+        "matched_village": "Barsat",
+        "confidence": "high"
+      }
+    ]
+  },
+  "S08A22P186": {
+    "timestamp": "2026-06-25T11:17:48.157Z",
+    "booth": {
+      "id": "186",
+      "name": "Garhi Khajur",
+      "building": "Government Primary School, Prem Nagar"
+    },
+    "unmatched": [
+      "2-खोजागीपुर ( बेचिराग )"
+    ],
+    "all_anubhags": [
+      {
+        "raw": "1-गढी खजूर आबादी प्रेम नगर",
+        "matched_village": "Garhi Khajur",
+        "confidence": "high"
+      },
+      {
+        "raw": "2-खोजागीपुर ( बेचिराग )",
+        "matched_village": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "S08A22P180": {
+    "timestamp": "2026-06-25T11:23:02.475Z",
+    "booth": {
+      "id": "180",
+      "name": "Malikpur",
+      "building": "Government Primary School, Malikpur"
+    },
+    "unmatched": [
+      "1-मलिक पुर घरौंडा"
+    ],
+    "all_anubhags": [
+      {
+        "raw": "1-मलिक पुर घरौंडा",
+        "matched_village": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "S08A22P169": {
+    "timestamp": "2026-06-26T05:00:12.454Z",
+    "booth": {
+      "id": "169",
+      "name": "Gharaunda",
+      "building": "Government Primary School No. 2, Gharaunda"
+    },
+    "unmatched": [
+      "2-अप्रवासी भारतीय"
+    ],
+    "all_anubhags": [
+      {
+        "raw": "1-घरौंडा वार्ड न.11",
+        "matched_village": "Gharaunda",
+        "confidence": "high"
+      },
+      {
+        "raw": "2-अप्रवासी भारतीय",
+        "matched_village": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "S08A22P156": {
+    "timestamp": "2026-06-26T05:01:33.556Z",
+    "booth": {
+      "id": "156",
+      "name": "Kasba Gharaunda",
+      "building": "Office Block Development and Panchayat Officer, Kasba Gharaunda"
+    },
+    "unmatched": [
+      "2-अप्रवासी भारतीय"
+    ],
+    "all_anubhags": [
+      {
+        "raw": "1-घरौंडा वार्ड न.4",
+        "matched_village": "Gharaunda",
+        "confidence": "high"
+      },
+      {
+        "raw": "2-अप्रवासी भारतीय",
+        "matched_village": null,
+        "confidence": "low"
+      }
+    ]
+  }
+}

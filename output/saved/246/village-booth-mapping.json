@@ -1,0 +1,50 @@
+{
+  "Garhi Bharal": [
+    {
+      "booth": "250-Garhi Bharal",
+      "pdf": "S08A22P250",
+      "anubhags": [
+        "1-गढ़ी भल्लम आबादी देवीपुर"
+      ]
+    },
+    {
+      "booth": "249-Garhi Bhallal",
+      "pdf": "S08A22P249",
+      "anubhags": [
+        "1-गढ़ी भल्लल आबादी देवीपुर"
+      ]
+    },
+    {
+      "booth": "248-Garhi Bhallam",
+      "pdf": "S08A22P248",
+      "anubhags": [
+        "1-गढ़ी भल्लम"
+      ]
+    },
+    {
+      "booth": "247-Garhi Bhallal",
+      "pdf": "S08A22P247",
+      "anubhags": [
+        "1-गढ़ी भल्लल"
+      ]
+    }
+  ],
+  "Balheda": [
+    {
+      "booth": "246-Balheda",
+      "pdf": "S08A22P246",
+      "anubhags": [
+        "1-बलहेड़ा"
+      ]
+    }
+  ],
+  "Karwali": [
+    {
+      "booth": "246-Balheda",
+      "pdf": "S08A22P246",
+      "anubhags": [
+        "2-कलरी ( बेचिराग )"
+      ]
+    }
+  ]
+}

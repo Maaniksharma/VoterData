@@ -1,0 +1,66 @@
+{
+  "S08A22P247": {
+    "timestamp": "2026-06-23T09:56:07.437Z",
+    "booth": {
+      "id": 247,
+      "name": "Garhi Bhallan",
+      "building": "Government Middle School, Garhi Bhallan"
+    },
+    "unmatched": [
+      "1-गढ़ी भल्लन"
+    ],
+    "all_anubhags": [
+      {
+        "raw": "1-गढ़ी भल्लन",
+        "matched_village": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "S08A22P246": {
+    "timestamp": "2026-06-24T03:37:49.057Z",
+    "booth": {
+      "id": 246,
+      "name": "Balheda",
+      "building": "Government Middle School, Balheda"
+    },
+    "unmatched": [
+      "2-कलरी ( बेचिराग )"
+    ],
+    "all_anubhags": [
+      {
+        "raw": "1-बलहेड़ा",
+        "matched_village": "Balheda",
+        "confidence": "high"
+      },
+      {
+        "raw": "2-कलरी ( बेचिराग )",
+        "matched_village": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  "S08A22P212": {
+    "timestamp": "2026-06-24T09:09:00.154Z",
+    "booth": {
+      "id": "212",
+      "name": "Khora Khedi",
+      "building": "Rajkiya Senior Secondary School, Khorakhedi"
+    },
+    "unmatched": [
+      "2-कापड़ो ( बेचिराग )"
+    ],
+    "all_anubhags": [
+      {
+        "raw": "1-खोरा खेड़ी",
+        "matched_village": "Khorakhedi",
+        "confidence": "high"
+      },
+      {
+        "raw": "2-कापड़ो ( बेचिराग )",
+        "matched_village": null,
+        "confidence": "low"
+      }
+    ]
+  }
+}

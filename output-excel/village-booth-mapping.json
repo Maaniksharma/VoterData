@@ -1,0 +1,539 @@
+{
+  "Kalhedi": [
+    {
+      "booth": "199-Kalhedi",
+      "pdf": "S08A22P199",
+      "anubhags": [
+        "1-कलहेड़ी ब्लाक न. 2"
+      ]
+    },
+    {
+      "booth": "198-Kalhedi",
+      "pdf": "S08A22P198",
+      "anubhags": [
+        "1-कलहेड़ी ब्लाक न.1"
+      ]
+    }
+  ],
+  "Barsat": [
+    {
+      "booth": "197-Barsat",
+      "pdf": "S08A22P197",
+      "anubhags": [
+        "1-बरसत ब्लाक न.6"
+      ]
+    },
+    {
+      "booth": "196-Barsat",
+      "pdf": "S08A22P196",
+      "anubhags": [
+        "1-बरसत ब्लाक न.6"
+      ]
+    },
+    {
+      "booth": "195-Barsat",
+      "pdf": "S08A22P195",
+      "anubhags": [
+        "1-बरसत",
+        "2-बरसत ब्लाक न.5"
+      ]
+    },
+    {
+      "booth": "194-Barsat",
+      "pdf": "S08A22P194",
+      "anubhags": [
+        "1-बरसत ब्लाक न.1",
+        "2-बरसत",
+        "3-बरसत ब्लाक न.5"
+      ]
+    },
+    {
+      "booth": "193-Barsat",
+      "pdf": "S08A22P193",
+      "anubhags": [
+        "1-बरसत ब्लाक न.1",
+        "2-बरसत",
+        "3-बरसत ब्लाक न.5"
+      ]
+    },
+    {
+      "booth": "192-Barsat",
+      "pdf": "S08A22P192",
+      "anubhags": [
+        "1-बरसत ब्लाक न.1",
+        "2-बरसत",
+        "4-बरसत ब्लाक न.5"
+      ]
+    },
+    {
+      "booth": "191-Barsat",
+      "pdf": "S08A22P191",
+      "anubhags": [
+        "1-बरसत ब्लाक न.3"
+      ]
+    },
+    {
+      "booth": "190-Barsat",
+      "pdf": "S08A22P190",
+      "anubhags": [
+        "1-बरसत ब्लाक न.1",
+        "2-बरसत ब्लाक न. 2",
+        "3-बरसत"
+      ]
+    }
+  ],
+  "Mundigarhi": [
+    {
+      "booth": "189-Mundigarhi",
+      "pdf": "S08A22P189",
+      "anubhags": [
+        "1-मुण्डी गढ़ी"
+      ]
+    },
+    {
+      "booth": "188-Mundigarhi",
+      "pdf": "S08A22P188",
+      "anubhags": [
+        "1-मुण्डी गढ़ी"
+      ]
+    }
+  ],
+  "Garhi Khajur": [
+    {
+      "booth": "187-Garhi Khajur",
+      "pdf": "S08A22P187",
+      "anubhags": [
+        "1-गढ़ी खजूर आबादी प्रेम नगर"
+      ]
+    },
+    {
+      "booth": "186-Garhi Khajur",
+      "pdf": "S08A22P186",
+      "anubhags": [
+        "1-गढी खजूर आबादी प्रेम नगर"
+      ]
+    },
+    {
+      "booth": "185-Garhi Khajur",
+      "pdf": "S08A22P185",
+      "anubhags": [
+        "1-गढ़ी खजूर ब्लाक न. 1"
+      ]
+    }
+  ],
+  "Jamalpur": [
+    {
+      "booth": "184-Jamalpur",
+      "pdf": "S08A22P184",
+      "anubhags": [
+        "1-जमालपुर"
+      ]
+    },
+    {
+      "booth": "183-Jamalpur",
+      "pdf": "S08A22P183",
+      "anubhags": [
+        "1-जमालपुर"
+      ]
+    }
+  ],
+  "Panodi": [
+    {
+      "booth": "182-Panodi",
+      "pdf": "S08A22P182",
+      "anubhags": [
+        "1-पनोड़ी"
+      ]
+    },
+    {
+      "booth": "181-Panodi",
+      "pdf": "S08A22P181",
+      "anubhags": [
+        "1-पनोड़ी"
+      ]
+    }
+  ],
+  "Gharaunda": [
+    {
+      "booth": "179-Gharaunda",
+      "pdf": "S08A22P179",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.17",
+        "2-घरौंडा वार्ड न.11"
+      ]
+    },
+    {
+      "booth": "178-Gharaunda",
+      "pdf": "S08A22P178",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.17",
+        "2-घरौंडा वार्ड न.11"
+      ]
+    },
+    {
+      "booth": "177-Gharaunda",
+      "pdf": "S08A22P177",
+      "anubhags": [
+        "1-घरौंडा वार्ड नं.17",
+        "2-घरौंडा वार्ड न.14",
+        "3-घरौंडा वार्ड न.16"
+      ]
+    },
+    {
+      "booth": "176-Gharaunda",
+      "pdf": "S08A22P176",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.16"
+      ]
+    },
+    {
+      "booth": "175-Gharaunda",
+      "pdf": "S08A22P175",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.15"
+      ]
+    },
+    {
+      "booth": "174-Gharaunda",
+      "pdf": "S08A22P174",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.15"
+      ]
+    },
+    {
+      "booth": "173-Gharaunda",
+      "pdf": "S08A22P173",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.14"
+      ]
+    },
+    {
+      "booth": "172-Gharaunda",
+      "pdf": "S08A22P172",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.13"
+      ]
+    },
+    {
+      "booth": "171-Gharaunda",
+      "pdf": "S08A22P171",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.13"
+      ]
+    },
+    {
+      "booth": "170-Gharaunda",
+      "pdf": "S08A22P170",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.12"
+      ]
+    },
+    {
+      "booth": "169-Gharaunda",
+      "pdf": "S08A22P169",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.11"
+      ]
+    },
+    {
+      "booth": "168-Kasba Gharaunda",
+      "pdf": "S08A22P168",
+      "anubhags": [
+        "1-घरौंडा वार्ड न. 3",
+        "2-घरौंडा वार्ड न. 3, 4",
+        "3-घरौंडा वार्ड न.10"
+      ]
+    },
+    {
+      "booth": "167-Gharaunda",
+      "pdf": "S08A22P167",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.10"
+      ]
+    },
+    {
+      "booth": "166-Gharaunda",
+      "pdf": "S08A22P166",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.9",
+        "2-घरौंडा वार्ड न.9"
+      ]
+    },
+    {
+      "booth": "165-Gharaunda",
+      "pdf": "S08A22P165",
+      "anubhags": [
+        "1-घरौंडा वार्ड नं.6"
+      ]
+    },
+    {
+      "booth": "164-Gharaunda",
+      "pdf": "S08A22P164",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.9"
+      ]
+    },
+    {
+      "booth": "163-Gharaunda",
+      "pdf": "S08A22P163",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.7",
+        "2-घरौंडा वार्ड न.8"
+      ]
+    },
+    {
+      "booth": "162-Gharaunda",
+      "pdf": "S08A22P162",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.8"
+      ]
+    },
+    {
+      "booth": "161-Gharaunda",
+      "pdf": "S08A22P161",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.7"
+      ]
+    },
+    {
+      "booth": "160-Gharaunda",
+      "pdf": "S08A22P160",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.6"
+      ]
+    },
+    {
+      "booth": "159-Gharaunda",
+      "pdf": "S08A22P159",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.6"
+      ]
+    },
+    {
+      "booth": "158-Kasba Gharaunda",
+      "pdf": "S08A22P158",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.4",
+        "2-घरौंडा वार्ड न.5"
+      ]
+    },
+    {
+      "booth": "157-Gharaunda",
+      "pdf": "S08A22P157",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.6",
+        "2-घरौंडा वार्ड न.5"
+      ]
+    },
+    {
+      "booth": "156-Kasba Gharaunda",
+      "pdf": "S08A22P156",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.4"
+      ]
+    },
+    {
+      "booth": "155-Gharaunda",
+      "pdf": "S08A22P155",
+      "anubhags": [
+        "1-घरौंडा वार्ड न. 3"
+      ]
+    },
+    {
+      "booth": "154-Kasba Gharaunda",
+      "pdf": "S08A22P154",
+      "anubhags": [
+        "1-घरौण्डा वार्ड न. 3"
+      ]
+    },
+    {
+      "booth": "153-Gharaunda",
+      "pdf": "S08A22P153",
+      "anubhags": [
+        "1-घरौंडा बैरून हदूद कमेटी वार्ड न.1",
+        "2-घरौंडा बैरून हदूद कमेटी वार्ड न.2",
+        "3-घरौंडा वार्ड न.2"
+      ]
+    },
+    {
+      "booth": "151-Gharaunda",
+      "pdf": "S08A22P151",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.2"
+      ]
+    },
+    {
+      "booth": "150-Gharaunda",
+      "pdf": "S08A22P150",
+      "anubhags": [
+        "1-घरौंडा बैरून हदूद कमेटी वार्ड न.1"
+      ]
+    },
+    {
+      "booth": "152-Gharaunda",
+      "pdf": "S08A22P152",
+      "anubhags": [
+        "1-घरौंडा वार्ड न.2"
+      ]
+    },
+    {
+      "booth": "149-Gharaunda",
+      "pdf": "S08A22P149",
+      "anubhags": [
+        "1-घरौंडा बैरून हदूद कमेटी वार्ड नं. 1"
+      ]
+    }
+  ],
+  "Bastada": [
+    {
+      "booth": "131-Bastada",
+      "pdf": "S08A22P131",
+      "anubhags": [
+        "1-बसताडा ब्लाक न. 2",
+        "2-बसताडा ब्लाक न. 3, 4"
+      ]
+    },
+    {
+      "booth": "133-Bastada",
+      "pdf": "S08A22P133",
+      "anubhags": [
+        "1-बसताडा ब्लाक न.1, 2",
+        "2-बसताडा ब्लाक न. 3, 4",
+        "3-बसताडा ब्लाक न.3"
+      ]
+    },
+    {
+      "booth": "132-Bastada",
+      "pdf": "S08A22P132",
+      "anubhags": [
+        "1-बस्ताडा ब्लाक न.3"
+      ]
+    }
+  ],
+  "Upli": [
+    {
+      "booth": "148-Upli",
+      "pdf": "S08A22P148",
+      "anubhags": [
+        "1-उपली"
+      ]
+    }
+  ],
+  "Phurlak": [
+    {
+      "booth": "147-Phurlak",
+      "pdf": "S08A22P147",
+      "anubhags": [
+        "1-फूरलक ब्लाक न. 1",
+        "2-फूरलक ब्लाक न. 2"
+      ]
+    },
+    {
+      "booth": "146-Phurlak",
+      "pdf": "S08A22P146",
+      "anubhags": [
+        "1-फूरलक ब्लाक न. 2"
+      ]
+    },
+    {
+      "booth": "145-Phurlak",
+      "pdf": "S08A22P145",
+      "anubhags": [
+        "1-फुरलक ब्लाक न. 1"
+      ]
+    }
+  ],
+  "Satodi": [
+    {
+      "booth": "143-Staundi",
+      "pdf": "S08A22P143",
+      "anubhags": [
+        "1-स्टौण्डी ब्लाक न.3"
+      ]
+    },
+    {
+      "booth": "144-Satodi",
+      "pdf": "S08A22P144",
+      "anubhags": [
+        "1-स्टौण्डी ब्लाक न.1 व 2",
+        "2-स्टौण्डी ब्लाक न.2",
+        "3-स्टौण्डी ब्लाक न.3",
+        "4-स्टौण्डी ब्लाक न.3",
+        "5-स्टौण्डी ब्लाक न.3"
+      ]
+    },
+    {
+      "booth": "142-Staudi",
+      "pdf": "S08A22P142",
+      "anubhags": [
+        "1-स्तौण्डी ब्लाक न.2"
+      ]
+    },
+    {
+      "booth": "141-Satodi",
+      "pdf": "S08A22P141",
+      "anubhags": [
+        "1-स्टौण्डी ब्लाक न.1 व 2"
+      ]
+    }
+  ],
+  "Bijna": [
+    {
+      "booth": "140-Bijna",
+      "pdf": "S08A22P140",
+      "anubhags": [
+        "1-बीजना ब्लाक न.1",
+        "2-बीजना ब्लाक न.1",
+        "3-बीजना ब्लाक न.2",
+        "4-बीजना ब्लाक न.1"
+      ]
+    },
+    {
+      "booth": "139-Bijna",
+      "pdf": "S08A22P139",
+      "anubhags": [
+        "1-बीजना ब्लाक न.1"
+      ]
+    },
+    {
+      "booth": "138-Bijna",
+      "pdf": "S08A22P138",
+      "anubhags": [
+        "1-बीजना ब्लाक न.1"
+      ]
+    }
+  ],
+  "Rasin": [
+    {
+      "booth": "137-Rasin",
+      "pdf": "S08A22P137",
+      "anubhags": [
+        "1-रसीन",
+        "2-रसीन ब्लाक न 2"
+      ]
+    },
+    {
+      "booth": "136-Rasin",
+      "pdf": "S08A22P136",
+      "anubhags": [
+        "1-रसीन"
+      ]
+    }
+  ],
+  "Hasanpur": [
+    {
+      "booth": "135-Hasanpur",
+      "pdf": "S08A22P135",
+      "anubhags": [
+        "1-हसनपुर"
+      ]
+    },
+    {
+      "booth": "134-Hasanpur",
+      "pdf": "S08A22P134",
+      "anubhags": [
+        "1-हसनपुर"
+      ]
+    }
+  ]
+}
